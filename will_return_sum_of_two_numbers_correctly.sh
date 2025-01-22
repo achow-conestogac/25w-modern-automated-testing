@@ -6,7 +6,7 @@ RESULT=$(./sum_up_to_three_numbers.sh 13 15)
  
 if [[ $RESULT -eq 28 ]];
 then
-	echo "is 28"
+	echo "Success"
 else 
-	echo "not 28" 
+	echo "Failed" 
 fi
